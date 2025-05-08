@@ -24,7 +24,7 @@ n3: derp
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: DETTE ER ET MENNESKE
 
 (...600)
 
@@ -40,21 +40,21 @@ n2: THIS IS A HUMAN
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: OG DETTE ER MENNESKETS ANGST
 
-n: _YOU_ ARE THE ANXIETY
+n: _DU_ ER ANGSTEN
 
-[You're eating alone for lunch! Again!](#act1a_alone)
+[Du spiser lunsj alene! Igjen!](#act1a_alone)
 
-[You're not productive while eating!](#act1a_productive)
+[Du er ikke produktiv når du spiser!](#act1a_productive)
 
-[That white bread's bad for you!](#act1a_bread)
+[Den loffen er dårlig for deg!](#act1a_bread)
 
 # act1a_alone
 
 `bb({mouth:"small", eyes:"narrow"})`
 
-b: Don't you know loneliness is associated with premature death as much as smoking 15 cigarettes a day?-
+b: Vet du at ensomhet er assosiert med tidlig død like mye som å røyke 15 sigaretter vær dag?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -64,17 +64,17 @@ b: (Holt-Lunstad et al, 2010, PLoS Medicine)
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Um, thanks for citing your sources but--
+h: Uh, takk for å sitere kildene dine men--
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
 `bb({body:"fear", mouth:"normal", eyes:"fear"})`
 
-b: Which means if you don't hang out with someone *right now* you're gonna-
+b: Som betyr om du ikke henger med noen *akkurat nå* så vil du-
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: DØØØØØØØØØØØØØØØ
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
