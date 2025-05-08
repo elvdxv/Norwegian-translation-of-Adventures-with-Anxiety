@@ -14,7 +14,7 @@
 
 `clearText()`
 
-n3: So before we start, how would *you* like to read?
+n3: Så før vi starter, hvor raskt vil *du* lese?
 
 `publish("show_options_bottom")`
 
