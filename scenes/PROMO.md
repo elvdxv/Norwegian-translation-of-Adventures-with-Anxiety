@@ -6,7 +6,7 @@
 
 (...51)
 
-[PLAY!](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
+[START!](#intro-start) `publish("intro-to-game-1"); Game.OVERRIDE_CHOICE_LINE=true;`
 
 # intro-start
 
@@ -20,7 +20,7 @@ n3: Så før vi starter, hvor raskt vil *du* lese?
 
 # intro-start-2
 
-n3: Now, let's begin our story...
+n3: Nå, la oss begynne denne fortellingen...
 
 ```
 publish("hide_tabs");
@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: DETTE ER EN PERSON
 
 (...600)
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: OG DETTE ER PERSONENS ANGST
 
-n: _YOU_ ARE THE ANXIETY
+n: _DU_ ER ANGSTEN
 
 (#act1_normal)
 
@@ -66,7 +66,7 @@ sfx("rustle");
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-h: Nope. No, nope, not listening. Gonna check my phone.
+h: Nei. Nei, nei, hører deg ikke. Sjekker mobilen min.
 
 ```
 sfx("rustle2");
